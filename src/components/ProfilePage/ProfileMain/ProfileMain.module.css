@@ -1,0 +1,23 @@
+.main {    
+    margin-top: 40px;
+    display: flex;
+}
+.avatar {
+    height: 250px;
+    width: 250px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.avatar img{
+    height: 100%;
+}
+.main p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.main span {
+    font-weight: bold;
+}
+.statusBlock {
+    margin-left: 40px;
+}

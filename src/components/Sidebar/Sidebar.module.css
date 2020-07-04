@@ -1,0 +1,26 @@
+.sidebar {     
+    background-color: yellowgreen;    
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    min-height: 550px;
+}
+.sidebar ul {
+    list-style: none;
+    margin: 50px 0 50px 20px;
+    color:black;
+}
+.sidebar a {
+    text-decoration: none;
+}
+.sidebar a:visited {
+    color:black;
+}
+.sidebar a:hover {
+    color:red;
+}
+.active a:visited,
+.active a { 
+    color: blue;
+}

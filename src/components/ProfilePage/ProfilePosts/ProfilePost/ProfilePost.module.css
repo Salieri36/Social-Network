@@ -1,0 +1,31 @@
+.post {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+.post img {
+    width: 50px;            
+}
+.postsText {
+    width: 400px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid black;
+}
+.likes {
+    width: 490px;
+    text-align: right;    
+}
+.postBlock {
+    margin-bottom: 30px;
+}
+.likes span {
+    font-weight: bold;
+}
+.author {    
+    font-weight: bold;
+    margin-right: 20px;
+}
+.author p {
+    margin: 5px 0;
+}

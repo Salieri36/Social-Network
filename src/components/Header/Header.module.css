@@ -1,0 +1,23 @@
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: aquamarine;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.logo {
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.logo img {
+    max-width: 100%;
+}
+.loginBlock {
+    float: right;
+    margin-top: -40px;
+    margin-right: 40px;    
+}
+.loginBlock a {
+    color: black;
+}

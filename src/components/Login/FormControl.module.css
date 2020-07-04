@@ -1,0 +1,6 @@
+.error {
+    border: solid red 1px!important;
+}
+.main.error span {
+    color: red;
+}

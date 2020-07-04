@@ -1,0 +1,30 @@
+.users {    
+    background-color: lightskyblue;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;    
+    padding: 40px 0 0 40px;        
+}
+.usersBlock {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.avatar {
+    width: 80px;
+    margin-right: 20px;
+}
+.avatar img{
+    width: 80px;
+}
+button {
+    margin-left: 10px;
+}
+.selectedPage {
+    font-weight: bold;
+}
+.users > span {
+    margin-right: 10px;
+    cursor: pointer;
+}
